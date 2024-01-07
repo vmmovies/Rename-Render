@@ -7,9 +7,9 @@ import re, os
 
 id_pattern = re.compile(r'^.\d+$') 
 
-API_ID = os.environ.get("API_ID", "29531798")
+API_ID = os.environ.get("API_ID", "28768774")
 
-API_HASH = os.environ.get("API_HASH", "c2774074ff23c8da77454415c41ac57")
+API_HASH = os.environ.get("API_HASH", "dc4e9659b934f1e63913772aa2e5f27c")
 
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "6726180488:AAH9tIf9Hp7r0zhvjXfUCM7ZSPXUbDfK84s") 
 
@@ -27,7 +27,7 @@ FLOOD = int(os.environ.get("FLOOD", "10"))
 
 START_PIC = os.environ.get("START_PIC", "https://te.legra.ph/file/119729ea3cdce4fefb6a1.jpg")
 
-ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '6258598643').split()]
+ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '1640326738').split()]
 
 PORT = os.environ.get("PORT", "8080")
 
